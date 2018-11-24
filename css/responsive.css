@@ -1,0 +1,445 @@
+@media only screen and (max-width: 1160px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    /*--footer start here--*/
+    .footerlogo {
+        margin: 90px 100px 0 0
+    }
+
+    .blog {
+        margin-left: 60px;
+    }
+
+    /*--footer ended --*/
+
+
+}
+
+@media only screen and (max-width: 930px) {
+    .colorbar {
+        display: none;
+    }
+
+    /*---gallery---*/
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
+        padding: 130px 0;
+    }
+
+    /*--footer--*/
+    .footernav ul,
+    .blogpara,
+    .subcription {
+        margin-top: 10px;
+    }
+
+    .footerlogo {
+        margin: 90px 50px 0 0;
+    }
+
+    .blog {
+        margin-left: 40px;
+    }
+
+
+}
+
+@media only screen and (max-width: 860px) {
+
+    /*---header---*/
+    .ti-layout-column4-alt {
+        display: block;
+        margin: 10px;
+
+    }
+
+    .logo {
+        margin: 10px;
+    }
+
+    nav ul {
+        display: none;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        z-index: 9;
+    }
+
+    a {
+        padding: 5px 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 0;
+        float: none;
+        background-color: #5fc5f4;
+    }
+
+    .navigation:hover ul {
+        display: block;
+    }
+
+    /*--- bannner --*/
+    .contenttext {
+        padding: 100px 0;
+    }
+
+    p.no-bold {
+        font-size: 20px;
+    }
+
+    h1.bannertag {
+        padding-top: 5px;
+        font-size: 30px;
+    }
+
+    /*--about us--*/
+    .aboutcontent {
+        margin: 60px 0 0 60px;
+    }
+
+    .highlight {
+        top: 60px;
+    }
+
+    .line {
+        width: 100px;
+    }
+
+    .leftimage {
+        padding: 240px 0;
+    }
+
+    p.text {
+        margin-top: 10px;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+
+    /*--services--*/
+    .servicescontainer > div {
+        width: 100%;
+        display: block;
+    }
+
+    .web,
+    .search,
+    .app {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    h2.ourservices {
+        text-align: center;
+    }
+
+    .servicestext {
+        width: 100%;
+    }
+
+    .servicestext {
+        margin-top: 10px;
+    }
+
+    .servicesmore {
+        float: right;
+    }
+
+    /*--end of services--*/
+    /*---clinets---*/
+
+    .clientsleft,
+    .fact {
+        width: 100%;
+    }
+
+    .factright {
+        margin: 60px 0;
+        text-align: center;
+    }
+
+    .clientfun {
+        padding: 50px 0;
+    }
+
+
+    /*--end of clients--*/
+    /*---testimonerials ---*/
+    .testtimonials .wrapper h1 {
+        margin-bottom: 10px;
+    }
+
+    .testtimonials .wrapper {
+        text-align: center;
+    }
+
+    .testtimonials {
+        margin: 10px 0;
+    }
+
+    .texttimonialsleft,
+    .texttimonialsright {
+        width: 100%;
+    }
+
+    .innertexttimonialsleft > p,
+    .innertexttimonialsright > p {
+        margin: 0;
+    }
+
+    .innertexttimonialsright,
+    .innertexttimonialsleft {
+        margin: 50px;
+    }
+
+    .clientsname {
+        margin-top: 20px;
+        float: right;
+    }
+
+    /*---end of happy clients--*/
+    /*---gallery---*/
+    .galleycontainer {
+        grid-template-columns: auto auto;
+    }
+
+    /*---end of gallery--*/
+    /*--footer strat--*/
+    .footerlogo {
+        float: none;
+        margin: 0;
+    }
+
+    .footernav {
+        float: left;
+        margin-left: 60px;
+    }
+
+    .blog {
+        float: right;
+        margin-right: 60px;
+    }
+
+    .newsletter {
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*---about us---*/
+    .highlight {
+        transform: rotate(90deg);
+        left: -50px;
+        top: -33px;
+    }
+
+    .leftimg {
+        width: 100%;
+    }
+
+    .leftimage {
+        padding: 100px 0;
+    }
+
+    .righthalf {
+        width: 100%;
+    }
+
+    .aboutcontent {
+        margin: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+
+    /*--end of about us--*/
+    /*--services--*/
+    div.ourservices {
+        padding: 20px 0;
+    }
+
+    /*---start of gallery---*/
+    .galleycontainer {
+        grid-template-columns: auto;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
+        padding: 100px 0;
+    }
+
+    /*--footer strat here--*/
+    .footernav,
+    .blog {
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+
+    .blog {
+        margin-top: 20px;
+    }
+
+    .blogpara {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    /*---banner---*/
+    p.no-bold {
+        font-size: 16px;
+    }
+
+    h1.bannertag {
+        font-size: 18px;
+    }
+
+    /*--about us--*/
+    button {
+        padding: 5px;
+    }
+
+    /*----services--*/
+    .ourservices {
+        padding: 0px;
+    }
+
+    img {
+        height: 40px;
+    }
+
+    .servicescontainer {
+        margin-top: 30px;
+    }
+
+    .servicestext {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .app {
+        margin-bottom: 0;
+    }
+
+    /*--clints---*/
+    .imghappy,
+    .imgpeople,
+    .imgawards {
+        padding: 15px;
+    }
+
+    .h1clinets {
+        font: normal 20px/20px "Roboto Slab";
+        margin: 10px;
+    }
+
+    .h1clinets + p {
+        font: normal 12px/16px "Roboto Slab";
+    }
+
+    .factright {
+        margin-top: 20px;
+    }
+
+    .funfact + p {
+        font: normal 14px/20px "Roboto Slab";
+        margin-top: 10px;
+    }
+
+    .clientfun {
+        padding: 50px 0 25px;
+    }
+
+    /*--happy clients--*/
+    .innertexttimonialsleft,
+    .innertexttimonialsright {
+        margin: 0;
+    }
+
+    .clientsname {
+        margin-top: 5px;
+    }
+
+    .texttimonialsleft,
+    .texttimonialsright {
+        margin: 25px 0;
+    }
+
+    .innertexttimonialsleft > p,
+    .innertexttimonialsright > p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .clientcircle2,
+    .clientcircle1 {
+        padding: 25px;
+    }
+
+    .clientdetails h4 {
+        font-size: 16px;
+
+    }
+
+    .clientdetails h4 + p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .star {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    /*---footer--*/
+    input,
+    .social span,
+    .ti-email {
+        font-size: 14px;
+    }
+
+    .ti-facebook,
+    .ti-twitter-alt,
+    .ti-dribbble {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .subcription span {
+        padding: 14px;
+    }
+
+    /*--end of footer--*/
+
+
+
+
+
+}
